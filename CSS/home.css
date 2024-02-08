@@ -1,0 +1,164 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    padding: 10px;
+    color: #fff;
+
+}
+.m1{
+    background-color: rgb(206, 206, 226);
+    padding: 25px;
+    
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    background:rgba(22, 24, 24, 0.5);
+    
+}
+.pp1{
+    
+    display: flex;
+    width: 350px; 
+    height: 350px; 
+    overflow: hidden; 
+    border-radius: 20%;
+    box-shadow: 10px 10px 10px ;
+}
+.sm1{
+    
+    width:50%;
+    height:50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sm2{
+  
+    width:50%;
+    height:80px;
+      display: grid;
+      place-items: center;
+      border-radius: 0px 0px 50px 50px;
+      background-color: #000;
+  color: #fff;
+  opacity: .5;
+}
+.name1{
+    font-family: 'Oswald',sans-serif;
+    color: #00D4E0;
+    font-size: 28px;
+    font-weight:bold;
+    text-shadow: 2px 2px rgb(150, 135, 135);
+    
+}
+.name2{
+    font-size: 48px;
+  background: -webkit-linear-gradient(#eee, #e90404);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Oswald',sans-serif;
+  font-weight: bold;
+}
+.d1{
+    font-size: 26px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    color: #fff;
+    
+
+}
+.d2{
+    font-size: 20px;
+    padding-left: 50px;
+    color: #fff;
+    
+}
+.d3{
+    font-size: 20px;
+    padding-left: 50px;
+    color: #fff;
+}
+.pp2{
+    
+}
+.pp22{
+    width: 400px;
+    border-radius: 15%;
+    box-shadow: 5px 5px gray;
+
+}
+
+
+
+
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
