@@ -162,3 +162,43 @@ html {
     }
   }
 
+
+
+
+
+
+  form {
+    margin:0 auto;
+    width:100%;
+    border-radius: 10px;
+  }
+  input {
+    margin-bottom:3px;
+    padding:10px;
+    width: 100%;
+    border:1px solid #CCC;
+    border-radius: 20px 0px;
+  }
+  button {
+    padding:10px
+  }
+  label {
+    cursor:pointer
+  }
+  #form-switch {
+    display:none;
+    width: 100%;
+  }
+  #register-form {
+    display:none
+  }
+  #form-switch:checked~#register-form {
+    display:block
+  }
+  #form-switch:checked~#login-form {
+    display:none
+  }
+
+  .login1{ position: relative;
+    float: right;
+  width: 100%;}
